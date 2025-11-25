@@ -1,0 +1,98 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    overflow: hidden; /* Prevent scroll — requirement */
+}
+
+/* ---------------- Navbar ---------------- */
+.navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    background: #ffffff;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin: 0 1.4vw;
+    color: #444;
+    font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+    color: #0085ff;
+}
+
+.user-name {
+    background: #e7f1ff;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+/* ---------------- Hero Section ---------------- */
+.hero {
+    height: 90vh;                   /* fills remaining screen */
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6vw;
+}
+
+.left {
+    width: 45vw;
+}
+
+.left h1 {
+    font-size: 2.7rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.left span {
+    color: #0085ff;
+}
+
+.left p {
+    margin-top: 2vh;
+    color: #555;
+    font-size: 1rem;
+    max-width: 35vw;
+    line-height: 1.5;
+}
+
+.cta-btn {
+    margin-top: 3vh;
+    padding: 1.2vh 2vw;
+    font-size: 1rem;
+    border: none;
+    background: #0085ff;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background: #006fd0;
+}
+
+/* ---------------- Right Image ---------------- */
+.right img {
+    width: 28vw;
+    height: auto;
+}
